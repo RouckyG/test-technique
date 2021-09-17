@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.todoLists{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.list{
+  padding-bottom: 5px;
+  background-color: rgb(0, 189, 189);
+  border: darkblue solid 1px;
+  border-radius: 20px;
+  flex-grow: 1;
+  width: 35%;
+  word-wrap: break-word;
+}
+
+.item{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

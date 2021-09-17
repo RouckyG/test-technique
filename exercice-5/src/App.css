@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.calculator{
+  border : black solid 2px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.expression{
+  border: 2px solid black;
+  background-color: rgb(134, 235, 134);
+  width: 99%;
+  height: 40px;
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
